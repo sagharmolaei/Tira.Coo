@@ -1,0 +1,76 @@
+:root{
+    --textcolor:#4A2A1A;
+    --backcolor:#FBE9C7;
+
+}
+
+@font-face {
+    font-family: t;
+    src: url('./assets/Tanha-FD.woff2')format('woff2');
+}
+
+*{
+    font-family: t;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#FBE9C7 ;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header-home{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    justify-content: right;
+
+}
+.header-home p{
+    margin-right: -30px;
+    color: var(--textcolor);
+    font-weight: bold;
+    font-size:large;
+}
+
+.top-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 100px;
+    background-color: var(--textcolor);
+    border-radius: 20px;
+    margin: 50px;
+}
+
+.top-header h1{
+    color:var(--backcolor);}
+
+.main1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 175px;
+    height: 50px;
+    background-color: var(--textcolor);
+    border-radius: 30px;
+    margin-right: 50px;
+
+}
+.main1 a{
+    color: var(--backcolor);
+}
+.ins{
+    margin-top: 20px;
+
+
+}

@@ -1,0 +1,122 @@
+:root{
+    --textcolor:#4A2A1A;
+    --backcolor:#FBE9C7;
+
+}
+
+@font-face {
+    font-family: t;
+    src: url('./assets/Tanha-FD.woff2')format('woff2');
+}
+
+*{
+    font-family: t;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#FBE9C7 ;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.top-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 100px;
+    background-color: var(--textcolor);
+    border-radius: 20px;
+    margin: 50px;
+}
+
+.top-header h1{
+    color:var(--backcolor);
+
+}
+
+.top-title{
+    text-align: center;
+}
+
+.main1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 175px;
+    height: 50px;
+    background-color: var(--textcolor);
+    border-radius: 20px;
+    margin-right: 50px;
+}
+
+.main1 h1{
+    color: var(--backcolor);
+}
+
+.main1-title{
+    padding: 15px 50px;
+}
+
+.cookie{
+    color: var(--textcolor);
+}
+
+.main1-des{
+    padding: 10px 50px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 10px;
+}
+
+.main1-des h2{
+    color: var(--textcolor);
+    font-size: 35px;
+    font-weight: bold;
+}
+.main1-img img{
+    width:300px ;
+    border-radius: 20px;
+
+}
+
+.main1-img{
+         padding: 15px 50px;
+         display: flex;
+         gap: 50px;
+}
+
+.main1-exp{
+    padding: 15px 50px;
+}
+
+
+.main2{
+    margin-top: 80px;
+}
+.tira{
+    color: var(--textcolor);
+}
+
+.header-home{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    justify-content: right;
+
+}
+.header-home p{
+    margin-right: -30px;
+    color: var(--textcolor);
+    font-weight: bold;
+    font-size:large;
+}
